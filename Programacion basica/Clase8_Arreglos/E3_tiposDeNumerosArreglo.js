@@ -15,20 +15,19 @@ function cargarArreglo(numeros, n) {
 };
 
 function tiposDeNumeros() {
-    let ceros=0;
+    let ceros = 0;
     let positivos = 0;
     let negativos = 0;
-    switch (numeros) { 
-        case cero==0: 
-           ceros++
-           break 
-        case positivos>0: 
-           positivos++
-           break 
-        case negativos>0: 
-           negativos++ 
-           break 
-        default: 
-           console.log("La cantidad de positivos es: "+positivos+"La cantidad de negativos es: "+negativos+"y la cantidad de ceros es: "+ceros)
- }
-}
+    let indice;
+    for (indice = 0; indice < n; indice++) {
+        if (numeros[indice] > 0) {
+            positivos++;
+        } else if (numeros[indice] < 0) {
+            negativos++;
+        } else if (numeros[indice] == 0) {
+            ceros++;
+        }
+    } console.log("positivos " + positivos);
+    console.log("ceros " + ceros)
+    console.log("negativos " + negativos);
+};
