@@ -1,9 +1,115 @@
-img{
+body{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    margin: 0;
+}
+.encabezado{
+    
     width: auto;
     height: auto;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagen{
+    width: 80px;
+    height: 82px;
 }
 .logo{
+   
+   
+    border-color: black; 
+    border-radius: 10%;
+    margin: 2%;
+    display: flex;
+    align-self: flex-start;
+  
+    
+    
+}
+.marca{
+   
+    margin:1% 0;
+    font-size: 70px;
+    font-family: 'Amatic SC';
+   
+}
+.buscador{
+   
+    margin:5%;
+}
+.boton:hover{
+    background-color: blueviolet;
+    border-radius: 10%;
+    border-color: solid;
+}
+.contenido{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
     width: 100%;
+    height: auto;
+    
+    
+    
+   
+}
+
+#carouselExampleSlidesOnly{
+    background-color: lightcoral;
+    width: 60%;
     height: 100%;
+    margin:1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+#fotos{
+    width: 400px;
+    height: 400px;
+}
+h1,h2,h3,h4{
+    background-color: blanchedalmond;
+    border-radius: 10%;
+    margin: 2%;
+    font-family: 'Amatic SC';
+    font-size: 40px;
+}
+
+.productos{
+  
+}
+.piePagina{
+    background-color: lightcoral;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.margen{
+    margin: 2%;
+   
+}
+
+.tamañoFoto{
+    width: 300px;
+    height: 300px;
+}
+.carrito{
+    background-color: cadetblue;
+    width: auto;
+    height: auto;
+    border-color: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#botonSuma, #botonResta{
+    height: 50%;
+    
+    margin-top: 10%;
+}
+#botonManual{
+    width: 50%;
 }
