@@ -1,0 +1,15 @@
+.col-2{
+    border: 1px solid;
+}
+.col-4{
+    border: 1px solid;
+}
+
+#carouselExampleSlidesOnly{
+    width: 50%;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 3%;
+    margin-left: 30%;
+}
+/*   aca no me funcionada centrar con display asique lo centre con margin */

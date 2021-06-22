@@ -1,3 +1,4 @@
+<!--Autora de la pagina, Anais Rojas-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,62 +21,182 @@
 <body>
   <header class="encabezado">
 
-    <div class="logo"><img class="imagen"
+    <div class="logo"><img class="imagenLogo"
         src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\path867.png"
         alt="Logo de marca"></div>
     <div class="marca">Amor o Nada</div>
+
+
+    <!--<select id="mySelect" onchange="myFunction()">
+      <option value="INDUMENTARIA">INDUMENTARIA</option>
+      <option value="UTILITARIO">UTILITARIO</option>
+      <option value="DECORACION">DECORACION</option>
+      <option value="AMIGURUMIS">AMIGURUMIS</option>
+      <option value="KITS">KITS</option>
+    </select>-->
     <div class="buscador">
-      <button class="boton">Buscar</button>
+      <input id="buscar"/>
+      <button class="boton" id="botonBuscar">Buscar</button>
     </div>
   </header>
 
+  <div class="cuerpo">
+    <div class="Detalle">
+      <h1 id="titulo">¿Que es Amor o Nada?</h1>
+      <p id="italica">Es un emprendimiento que surge en 2016, en principio solo se elaboraban gorros. Luego, con el paso
+        de los años,
+        se fueron agregando mas productos, hoy en dia hay una amplia variedad y sigo sumando, apostando a la
+        <b>autogestion</b>, y al <b>trabajo digno.</b> Soy Anais Rojas, soy madre, estudiante, mujer y emprendedora!
+        <span class="bienvenido">Bienvenidxs!</span>
+      </p>
+    </div>
+
+    <div class="productos">
+      <!-- <div class="carrito">
+            <button id="botonSuma">-</button>
+            <input id="botonManual"></input>
+            <button id="botonResta">+</button>
+          </div>-->
+
+      <p class="estilo">INDUMENTARIA</p>
+      <p>Aca van a encontrar todo lo relacionado a vestimenta</p>
+      <!--pueden ser todos h2?-->
+      <p class="estilo">DECORACIÓN</p>
+      <p>Aca van a encontrar todo para decorar sus hogares</p>
+      <p class="estilo">UTILITARIO</p>
+      <p>Aca van a encontrar lo mas necesario para el dia a dia</p>
+      <p class="estilo">AMIGURUMIS</p>
+      <P>Aca van a encontrar muñecos y otras cosas hechas con la tecnica amigurumi</P>
+      <p class="estilo">KITS</p>
+      <p>Aca estarán los kits disponibles (sujeto siempre a cambios)</p>
+    </div>
 
 
-
-  <div class="container margen">
-    <div class="row">
-      <div class="col-sm-8">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="tamañoFoto"
-                src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\path867.png"
-                class="d-block w-50" alt="foto">
-            </div>
-            <div class="carousel-item">
-              <img class="tamañoFoto"
-                src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\post1.png"
-                class="d-block w-50" alt="foto">
-            </div>
-            <div class="carousel-item">
-              <img class="tamañoFoto"
-                src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\crochet.jpg"
-                class="d-block w-50" alt="foto">
-            </div>
-          </div>
+    <div class="catalogo">
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/chanchito4.jpeg" alt="Chanchito tejido">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Chanchito</b></h1>
+          <p id="descripProd">Tamaño: 10cm</p>
+          <p id="descripProd">Color: Rosa</p>
+          <p id="descripProd">Precio: $200 AR</p>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/monito.jpg" alt="Monito tejido">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Monito</b></h1>
+          <p id="descripProd">Tamaño: 35cm</p>
+          <p id="descripProd">Color: Beige y rosa</p>
+          <p id="descripProd">Precio: $800 AR</p>
         </div>
       </div>
 
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/babyYoda.jpg" alt="Baby Yoda tejido">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Baby Yoda con moises</b></h1>
+          <p id="descripProd">Tamaño: 27cm</p>
+          <p id="descripProd">Color: Verde, beige, marron</p>
+          <p id="descripProd">Precio: $1200 AR</p>
+        </div>
+      </div>
 
-      <div class="col-sm-4">
-        <div class="productos">
-          <div class="carrito">
-            <button id="botonSuma">-</button>
-            <button id="botonManual">agregar cantidad</button>
-            <button id="botonResta">+</button>
-          </div>
-          
-          <h1>Indumentaria</h1>
-          <h2>Decoracion</h2>
-          <h3>utilitario</h3>
-          <h4>kits</h4>
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/banderinesx6.jpg" alt="Banderines crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Banderines</b></h1>
+          <p id="descripProd">Tamaño: 165cm</p>
+          <p id="descripProd">Color: Fucsia, amarillo, gris</p>
+          <p id="descripProd">Precio: $750 AR</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/discosDesmaquillantes.jpg" alt="Discos desmaquillantes crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Discos desmaquillantes (4u)</b></h1>
+          <p id="descripProd">Tamaño: 8cm diam.</p>
+          <p id="descripProd">Color: Varios</p>
+          <p id="descripProd">Precio: $250 AR</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/posaVasoSandia.jpg" alt="Posa vasos sandia a crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Posa vasos sandia (2u)</b></h1>
+          <p id="descripProd">Tamaño: 10cm diam.</p>
+          <p id="descripProd">Color: Rojo, verde, blanco</p>
+          <p id="descripProd">Precio: $350 AR</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/individualRedonVioleta.png" alt="Individual a crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Individual redondo</b></h1>
+          <p id="descripProd">Tamaño: 30cm</p>
+          <p id="descripProd">Color: Violeta</p>
+          <p id="descripProd">Precio: $200 AR</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/Bikini.jpeg" alt="Bikini a crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Corpiño/bikini</b></h1>
+          <p id="descripProd">Tamaño: talle 95</p>
+          <p id="descripProd">Color: Coral, verde</p>
+          <p id="descripProd">Precio: $650 AR</p>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img id="fotoTarjeta" src="../Clase14_HTML_CSS/imagenes/pieDeCama.jpg" alt="Pie de cama crochet">
+        <div class="descripcion">
+          <h1 id="nombreProd"><b>Pie de cama</b></h1>
+          <p id="descripProd">Tamaño: 180 x 100cm</p>
+          <p id="descripProd">Color: Gris</p>
+          <p id="descripProd">Precio: $1500 AR</p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="tamañoFoto"
+            src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\path867.png"
+            alt="foto">
+        </div>
+        <div class="carousel-item">
+          <img id="tamañoFoto"
+            src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\post1.png"
+            alt="foto">
+        </div>
+        <div class="carousel-item">
+          <img id="tamañoFoto"
+            src="C:\Users\Anais\CFL2021.FullStack\Programacion basica\Modulo 2\Clase14_HTML_CSS\imagenes\crochet.jpg"
+            alt="foto">
         </div>
       </div>
     </div>
+
+   
   </div>
 
 
-  </div>
+
+
+
+
+
+
+
 
 
 
@@ -86,5 +207,6 @@
 </body>
 
 <footer class="piePagina">Amor o Nada - Tienda</footer>
+
 
 </html>

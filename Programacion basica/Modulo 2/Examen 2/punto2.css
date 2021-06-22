@@ -1,0 +1,19 @@
+body{
+    background-color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#guardar:hover{
+    background-color: rgb(136, 219, 11);
+}
+
+#eliminarLista:hover{
+    background-color: red;
+}
+
+.container{
+    background-color: tan;
+    width: 60%;
+    height: auto;
+    margin: 0;
+}

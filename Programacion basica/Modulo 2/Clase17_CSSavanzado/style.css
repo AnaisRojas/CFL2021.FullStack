@@ -1,0 +1,7 @@
+.container p{
+    color: red;
+}
+.container span{
+    /*font-style: italic;*/
+    font-weight: bold;
+}
