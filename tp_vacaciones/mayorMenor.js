@@ -23,9 +23,9 @@ var Mayormenor = /** @class */ (function () {
         while (tirarCarta != "1") {
             var cartaElegida = this.getAleatorio(1, 12);
             console.log(cartaElegida);
-            var respuestaJugador = RLS.question("Apuesta por mayor o menor a " + cartaElegida + "?: ");
+            var respuestaJugador = RLS.question("Apuesta por mayor(+) o menor(-) a " + cartaElegida + "?: ");
             switch (respuestaJugador) {
-                case "mayor":
+                case "+":
                     {
                         var cartaAComparar = this.getAleatorio(1, 12);
                         if (cartaAComparar > cartaElegida) {
@@ -40,7 +40,7 @@ var Mayormenor = /** @class */ (function () {
                         break;
                     }
                     ;
-                case "menor":
+                case "-":
                     {
                         var cartaAComparar = this.getAleatorio(1, 12);
                         if (cartaAComparar < cartaElegida) {

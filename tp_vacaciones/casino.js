@@ -27,8 +27,8 @@ var Casino = /** @class */ (function () {
         this.mayorMenor.getTirarCartas();
     };
     ;
-    Casino.prototype.mostrarInfo = function () {
-        var informacionJugador = (FS.readFileSync("casino.txt", 'utf8')).split("\n");
+    Casino.prototype.mostrarInfo = function (ruta) {
+        var informacionJugador = (FS.readFileSync(ruta, 'utf8')).split("\n");
         console.log(informacionJugador);
     };
     ;

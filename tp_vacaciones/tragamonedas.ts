@@ -73,7 +73,7 @@ export default class Tragamonedas {
                 premioTotal += premio;
                 console.log(`[${carrete1}] [${carrete2}] [${carrete3}]`);
                 console.log(`Felicidades ganaste ${premio}`);
-                //* 24 YA QUE LO CONVIERTE A PESOS CUBANOS
+                
                 recaudacion = ((monto * 24) - premio);
             } else if ((carrete1 == carrete2) || (carrete1 == carrete3) || (carrete2 == carrete3)) {
                 premio = (monto * 1.5);

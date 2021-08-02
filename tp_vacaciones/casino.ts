@@ -23,8 +23,8 @@ export default class Casino{
     public jugarMayorMenor():void{
         this.mayorMenor.getTirarCartas();
     };
-    public mostrarInfo(){
-        let informacionJugador:string[]=(FS.readFileSync("casino.txt",'utf8')).split("\n");
+    public mostrarInfo(ruta:string){
+        let informacionJugador:string[]=(FS.readFileSync(ruta,'utf8')).split("\n");
         console.log(informacionJugador);
     };
 };
