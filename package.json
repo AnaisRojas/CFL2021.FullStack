@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "fafa",
+  "main": "index.js",
+  "scripts": {
+    "test": "sad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaisRojas/CFL2021.FullStack.git"
+  },
+  "keywords": [
+    "sad"
+  ],
+  "author": "ani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaisRojas/CFL2021.FullStack/issues"
+  },
+  "homepage": "https://github.com/AnaisRojas/CFL2021.FullStack#readme"
+}
